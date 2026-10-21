@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Social_Cyber_Physical_System"
+version = "0.1.0"
+description = "A Socially Aware Peer-to-Peer Energy Trading System with Integrated Home Energy Management System"
+requires-python = ">=3.11"
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "langchain",
+    "langgrah",
+    "pydantic",
+    "fastapi",
+    "python-dotenv",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]

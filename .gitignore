@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+.venv
+*.pyc
+*.egg-info
+
+# Environmental Variables
+.env
+
+# Dataset
+data/raw
+data/processed
+
+# MacOS
+.DS_Store
