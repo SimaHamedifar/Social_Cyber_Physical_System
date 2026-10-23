@@ -11,8 +11,10 @@ requires-python = ">=3.11"
 dependencies = [
     "numpy",
     "pandas",
+    "matplotlib",
     "langchain",
-    "langgrah",
+    "langchain-core",
+    "langgraph",
     "pydantic",
     "fastapi",
     "python-dotenv",
