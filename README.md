@@ -30,12 +30,4 @@ The project expects raw data files to be located in the `data/raw/` directory at
 - `data/raw/15minute_data_austin.csv`
 - `data/raw/metadata.csv`
 
-The primary data preprocessing logic is located in the Jupyter notebook `src/Agentic_HEMS/data_preprocessing.ipynb`.
-
-Ensure you have Jupyter installed (you can install it via `pip install jupyter` if you haven't already). Then, start the Jupyter notebook server:
-
-```bash
-jupyter notebook
-```
-
-Navigate to `src/Agentic_HEMS/data_preprocessing.ipynb` in the Jupyter interface and run all cells to process the data. This will analyze participant metadata, perform time-series feature engineering, and prepare household data. 
+The primary data preprocessing logic is located in the Jupyter notebook `src/Agentic_HEMS/data_preprocessing.ipynb`. Run all cells to process the data. This will analyze participant metadata, perform time-series feature engineering, and prepare household data. 
